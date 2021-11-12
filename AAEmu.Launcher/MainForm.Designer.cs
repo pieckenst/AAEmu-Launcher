@@ -52,9 +52,6 @@
             this.ePassword = new System.Windows.Forms.TextBox();
             this.wbNews = new System.Windows.Forms.WebBrowser();
             this.lNewsFeed = new System.Windows.Forms.Label();
-            this.btnSettings = new System.Windows.Forms.Label();
-            this.btnWebsite = new System.Windows.Forms.Label();
-            this.btnPlay = new System.Windows.Forms.Label();
             this.lPassword = new System.Windows.Forms.Label();
             this.lLogin = new System.Windows.Forms.Label();
             this.pb1 = new System.Windows.Forms.ProgressBar();
@@ -135,6 +132,9 @@
             this.btnClose = new System.Windows.Forms.PictureBox();
             this.btnMinimize = new System.Windows.Forms.PictureBox();
             this.ttLocale = new System.Windows.Forms.ToolTip(this.components);
+            this.btnPlay = new System.Windows.Forms.Label();
+            this.btnWebsite = new System.Windows.Forms.Label();
+            this.btnSettings = new System.Windows.Forms.Label();
             this.panelLoginAndPatch.SuspendLayout();
             this.pPatchSteps.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pgbFrontTotal)).BeginInit();
@@ -456,54 +456,6 @@
             this.lNewsFeed.Text = "Launcher News\r\n\r\n\r\nUpdated the links to\r\nAAEmu project\r\n\r\nChanged the URI format\r" +
     "\nfor launching from website\r\n";
             this.lNewsFeed.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // btnSettings
-            // 
-            this.btnSettings.BackColor = System.Drawing.Color.Transparent;
-            this.btnSettings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSettings.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSettings.ForeColor = System.Drawing.Color.White;
-            this.btnSettings.Image = global::AAEmu.Launcher.Properties.Resources.btn_red_small;
-            this.btnSettings.Location = new System.Drawing.Point(687, 350);
-            this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(88, 26);
-            this.btnSettings.TabIndex = 25;
-            this.btnSettings.Text = "Settings";
-            this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
-            // 
-            // btnWebsite
-            // 
-            this.btnWebsite.BackColor = System.Drawing.Color.Transparent;
-            this.btnWebsite.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnWebsite.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnWebsite.ForeColor = System.Drawing.Color.White;
-            this.btnWebsite.Image = global::AAEmu.Launcher.Properties.Resources.btn_green_small;
-            this.btnWebsite.Location = new System.Drawing.Point(796, 350);
-            this.btnWebsite.Name = "btnWebsite";
-            this.btnWebsite.Size = new System.Drawing.Size(94, 26);
-            this.btnWebsite.TabIndex = 26;
-            this.btnWebsite.Text = "Website";
-            this.btnWebsite.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnWebsite.Click += new System.EventHandler(this.btnWebsite_Click);
-            // 
-            // btnPlay
-            // 
-            this.btnPlay.BackColor = System.Drawing.Color.Transparent;
-            this.btnPlay.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPlay.Font = new System.Drawing.Font("Georgia", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPlay.ForeColor = System.Drawing.Color.White;
-            this.btnPlay.Image = global::AAEmu.Launcher.Properties.Resources.btn_green_d;
-            this.btnPlay.Location = new System.Drawing.Point(679, 373);
-            this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(227, 67);
-            this.btnPlay.TabIndex = 23;
-            this.btnPlay.Text = "Play";
-            this.btnPlay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
-            this.btnPlay.MouseEnter += new System.EventHandler(this.btnPlay_MouseEnter);
-            this.btnPlay.MouseLeave += new System.EventHandler(this.btnPlay_MouseLeave);
             // 
             // lPassword
             // 
@@ -1324,6 +1276,54 @@
             this.ttLocale.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.ttLocale.ToolTipTitle = "Game Locale Setting";
             // 
+            // btnPlay
+            // 
+            this.btnPlay.BackColor = System.Drawing.Color.Transparent;
+            this.btnPlay.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPlay.Font = new System.Drawing.Font("Georgia", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlay.ForeColor = System.Drawing.Color.White;
+            this.btnPlay.Image = global::AAEmu.Launcher.Properties.Resources.btn_green_d;
+            this.btnPlay.Location = new System.Drawing.Point(679, 373);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(227, 67);
+            this.btnPlay.TabIndex = 23;
+            this.btnPlay.Text = "Play";
+            this.btnPlay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
+            this.btnPlay.MouseEnter += new System.EventHandler(this.btnPlay_MouseEnter);
+            this.btnPlay.MouseLeave += new System.EventHandler(this.btnPlay_MouseLeave);
+            // 
+            // btnWebsite
+            // 
+            this.btnWebsite.BackColor = System.Drawing.Color.Transparent;
+            this.btnWebsite.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnWebsite.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnWebsite.ForeColor = System.Drawing.Color.White;
+            this.btnWebsite.Image = global::AAEmu.Launcher.Properties.Resources.btn_green_small;
+            this.btnWebsite.Location = new System.Drawing.Point(796, 350);
+            this.btnWebsite.Name = "btnWebsite";
+            this.btnWebsite.Size = new System.Drawing.Size(94, 26);
+            this.btnWebsite.TabIndex = 26;
+            this.btnWebsite.Text = "Website";
+            this.btnWebsite.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnWebsite.Click += new System.EventHandler(this.btnWebsite_Click);
+            // 
+            // btnSettings
+            // 
+            this.btnSettings.BackColor = System.Drawing.Color.Transparent;
+            this.btnSettings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSettings.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSettings.ForeColor = System.Drawing.Color.White;
+            this.btnSettings.Image = global::AAEmu.Launcher.Properties.Resources.btn_red_small;
+            this.btnSettings.Location = new System.Drawing.Point(687, 350);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(88, 26);
+            this.btnSettings.TabIndex = 25;
+            this.btnSettings.Text = "Settings";
+            this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
+            // 
             // LauncherForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -1400,10 +1400,7 @@
         private System.Windows.Forms.Label lAppVersion;
         private System.Windows.Forms.Label lLogin;
         private System.Windows.Forms.Label lPassword;
-        private System.Windows.Forms.Label btnPlay;
         private System.Windows.Forms.Label lNewsFeed;
-        private System.Windows.Forms.Label btnSettings;
-        private System.Windows.Forms.Label btnWebsite;
         private System.Windows.Forms.PictureBox imgBigNews;
         private System.Windows.Forms.PictureBox btnSystem;
         private System.Windows.Forms.ContextMenuStrip cmsAAEmuButton;
@@ -1491,6 +1488,9 @@
         private System.Windows.Forms.ToolTip ttLocale;
         private System.Windows.Forms.ToolStripSeparator s2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem unknownToolStripMenuItem;
+        private System.Windows.Forms.Label btnSettings;
+        private System.Windows.Forms.Label btnWebsite;
+        private System.Windows.Forms.Label btnPlay;
     }
 }
 

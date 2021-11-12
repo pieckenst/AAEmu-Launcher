@@ -104,6 +104,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AAPak.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helpers.cs" />
     <Compile Include="InfoPopupForm.cs">
       <SubType>Form</SubType>
@@ -148,6 +154,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InfoPopupForm.resx">
       <DependentUpon>InfoPopupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -229,6 +238,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aaemu.ico" />
+    <None Include="Resources\bglogintest.png" />
     <None Include="Resources\bgsetuptest3.png" />
     <None Include="Resources\bgsetuptest2.png" />
     <None Include="Resources\bgsetuptest1.png" />

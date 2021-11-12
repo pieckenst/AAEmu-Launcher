@@ -121,6 +121,16 @@ namespace AAEmu.Launcher.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bglogintest {
+            get {
+                object obj = ResourceManager.GetObject("bglogintest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на iVBORw0KGgoAAAANSUhEUgAAAMkAAAC3CAYAAAC47nq0AAAH13pUWHRSYXcgcHJvZmlsZSB0eXBl
         ///IGV4aWYAAHjarVdprjQpDvzPKeYI2GDAx2GV+gZ9/Am2zHpLf1KP5qVeFQXGS4RtSNP//muY/+CP
         ///hb3xElPQECz+vHrljEGy+29/k/Xrc/1VPWv0dd6UeBYYUw7fbv8M/chnzMu7IfozX77Om1iPnnQU

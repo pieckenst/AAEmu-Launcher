@@ -163,6 +163,9 @@
   <data name="mini_locale_kr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\mini_locale_kr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bignews_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\bignews1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="растровый1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\растровый1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -172,20 +175,23 @@
   <data name="btn_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\btn_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg_patch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\bg_patch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="flag_xx" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\flag_xx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bgnews_b64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\bgnews.b64.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
-  <data name="aaemu_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Res\aaemu_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn_aaemu_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\btn_aaemu_active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pgbar_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\pgbar_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mini_locale_en_us" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Res\mini_locale_en_us.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bgsetuptest3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgsetuptest3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btn_minimize_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\btn_minimize_active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,35 +202,32 @@
   <data name="mini_locale_fr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\mini_locale_fr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="flag_cn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Res\flag_cn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bgsetuptest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bgsetuptest2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn_aaemu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\btn_aaemu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Discord_Logo_Only_Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\Discord_Logo_Only_Active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GitHub_Logo_Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Res\GitHub_Logo_Active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bgsetuptest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgsetuptest2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="flag_ru" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\flag_ru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="mini_locale_traditional_chinese" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\mini_locale_traditional_chinese.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btn_aaemu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Res\btn_aaemu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="flag_cn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\flag_cn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="flag_traditional_chinese" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\flag_traditional_chinese.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="flag_fr" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Res\flag_fr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_patch" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Res\bg_patch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="aaemu_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\aaemu_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btn_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\btn_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -234,9 +237,6 @@
   </data>
   <data name="flag_eu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\flag_eu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btn_minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Res\btn_minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btn_exit_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\btn_exit_active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -249,6 +249,9 @@
   </data>
   <data name="flag_de" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\flag_de.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pgbar_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\pgbar_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_setup" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\bg_setup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -274,22 +277,22 @@
   <data name="Discord_Logo_Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\Discord_Logo_Active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pgbar_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Res\pgbar_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GitHub_Logo_Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\GitHub_Logo_Active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btn_green_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Res\btn_green_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btn_aaemu_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Res\btn_aaemu_active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mini_locale_en_us" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\mini_locale_en_us.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bignews_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Res\bignews1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="flag_fr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\flag_fr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Res\bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn_minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\btn_minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bgsetuptest3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bgsetuptest3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bglogintest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bglogintest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
